@@ -6,5 +6,6 @@ public class Var6 {
 
         int a;
         System.out.println(a);
+        // 초기화 하지 않으면 컴파일에러가 난다.
     }
 }
