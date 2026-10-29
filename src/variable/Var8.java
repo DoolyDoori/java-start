@@ -14,5 +14,12 @@ public class Var8 {
         // 실수
         float f = 10.f;
         double d = 10.0;
+
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(f);
+        System.out.println(d);
+
     }
 }
