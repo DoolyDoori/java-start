@@ -20,6 +20,8 @@ public class Var8 {
         System.out.println(i);
         System.out.println(f);
         System.out.println(d);
+        System.out.println(l);
+
 
     }
 }
