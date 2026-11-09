@@ -3,7 +3,7 @@ package cond.ex;
 public class DistanceEX {
 
     public static void main(String[] args) {
-        int distance = 1;
+        int distance = 300;
 
         if (distance < 0){
             System.out.println("[Error]: invalid value");
