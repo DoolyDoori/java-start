@@ -7,15 +7,17 @@ public class Break1 {
         int sum = 0;
         int i = 1;
 
-        while(true) {
-            sum += i;
+        while(true){
+            sum = sum + i;
             if (sum > 10) {
-                System.out.println("sum exceed 10. i = " + i + " sum = " + sum);
+                System.out.println("exceed to 10, i = " + i + ", sum = " + sum);
                 break;
             }
             i++;
-
         }
-
     }
+
+
+
+
 }
