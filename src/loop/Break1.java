@@ -10,7 +10,7 @@ public class Break1 {
         while(true){
             sum = sum + i;
             if (sum > 10) {
-                System.out.println("exceed to 10, i = " + i + ", sum = " + sum);
+                System.out.println("sum exceed 10, i = " + i + ", sum = " + sum);
                 break;
             }
             i++;
