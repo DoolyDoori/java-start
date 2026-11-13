@@ -11,6 +11,6 @@ public class WhileEx3 {
             i++;
 
         }
-        System.out.println("sum = " + sum);
+        System.out.println("max = " + max + ", sum = " + sum);
     }
 }
