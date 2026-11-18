@@ -15,3 +15,4 @@ public class Scope1 {
             //System.out.println("if x = " + x); // Not accessible from inside to outside the block
     }
 }
+// Scope == Accessible range of variables
