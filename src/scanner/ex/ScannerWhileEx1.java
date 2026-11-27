@@ -12,16 +12,20 @@ public class ScannerWhileEx1 {
             String userName = input.nextLine();
 
             if (userName.equalsIgnoreCase("exit")) {
-                System.out.println("Exiting the program. ");
                 break;
             }
 
-            System.out.print("Enter your age: ");
+            System.out.print("Enter your age (type -1 to quit): ");
             int userAge = input.nextInt();
             input.nextLine();
 
-            System.out.println("Your name is " + userName + ". Your age is " + userAge) ;
+            if (userAge == -1) {
+                break;
+            }
+
+            System.out.println("Your name is " + userName + ". Your age is " + userAge);
         }
+        System.out.println("Exiting the program.");
     }
 
 }
